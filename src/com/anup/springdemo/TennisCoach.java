@@ -19,7 +19,7 @@ public class TennisCoach implements Coach {
 	}
 
 	@PreDestroy
-	public void doMyCleanUpStuff() {
+	public void doMyCleanUpStuff() {	
 		System.out.println("TennisCoach ::: in the doMyCleanUpStuff() method");
 	}
 	
